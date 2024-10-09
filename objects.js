@@ -28,12 +28,12 @@ console.log(books)
 
 function searchBookTitle(title){
     found = books.find(book => book.title === title)
-    console.log(found.getInfo())
+    found.getInfo()
 }
 
 function searchBookAuthor(author){
     found = books.find(book => book.author === author)
-    console.log(found.getInfo())
+    found.getInfo()
 }
 
 searchBookTitle("The Cyberiad")
